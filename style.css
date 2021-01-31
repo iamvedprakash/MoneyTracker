@@ -1,0 +1,64 @@
+body{
+  background-image: url("background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+#navigation{
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+  height: 35px;
+  font-size: 30px;
+}
+
+#total{
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#items{
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-family: serif;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
+#data{
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  height: 70px;
+  width: 330px;
+  background-color: black;
+  color: white;
+  font-family: cursive;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}

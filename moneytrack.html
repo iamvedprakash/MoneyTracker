@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MoneyTrack</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <ul id="navigation">
+      <li><i>MoneyTrack</i></li>
+    </ul>
+
+
+    <div id="total">
+      <h2 id="total_amount"></h2>
+      <p>Total money spend</p>
+    </div>
+
+    <table id="items">
+      <tbody>
+        <tr>
+          <td>Travelling</td>
+          <td id="Travelling"></td>
+        </tr>
+        <tr>
+          <td>Food</td>
+          <td id="Food"></td>
+        </tr>
+        <tr>
+          <td>Stationary</td>
+          <td id="Stationary"></td>
+        </tr>
+        <tr>
+          <td>Mobile or Internet</td>
+          <td id="Mobile"></td>
+        </tr>
+        <tr>
+          <td>Others</td>
+          <td id="Others"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="data">
+      <form>
+      <table style="margin: 10px;">
+        <tbody>
+          <tr>
+            <td>
+                  <select id="item_input" name="Item" required>
+                    <option value="Travelling">Travelling</option>
+                    <option value="Food">Food</option>
+                    <option value="Stationary">Stationary</option>
+                    <option value="Mobile or Internet">Mobile or Internet</option>
+                    <option value="Others">Others</option>
+                  </select>
+            </td>
+                <td><input type="number" id="amount" placeholder="Enter Amount" min="0" required></td>
+          </tr>
+          <tr>
+            <td align="center"><input type="submit"  id="button" onclick="fun()" value="Add"></td>
+            <td align="center"><input type="button" id="reset" onclick="re()" value="Reset"></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
